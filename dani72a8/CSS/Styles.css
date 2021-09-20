@@ -1,0 +1,49 @@
+#Test{
+	text-align: center;
+}
+
+header{
+	max-height: 200px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column{
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+	height: 300px;
+	
+}
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.responsive{
+	width: 100%;
+	height: auto;
+}
+
+header{
+	max-height: 200px;
+}
+
+.container{
+	font-family: Tahoma;
+	position: relative;
+	text-align: center;
+	font-size: Auto;
+	color: #757575;
+}
+
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
