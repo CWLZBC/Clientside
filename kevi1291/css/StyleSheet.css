@@ -1,0 +1,37 @@
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body * {
+    border: solid red 1px;
+}
+
+#seperator{
+    visibility: hidden;
+    height: 80px;
+}
+
+nav{
+    position: fixed;
+    text-align: center;
+    height: 80px;
+}
+
+.head * {
+    height: 80px;
+    font-size: 30px;
+    line-height: 80px;
+}
+
+#logo {
+    line-height: 0px;
+}
+
+#logo img {
+    position: relative;
+    vertical-align: middle;
+    padding: 2px 0;
+}
