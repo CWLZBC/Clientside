@@ -1,0 +1,99 @@
+ /*html { 
+    background: url("../img/bg.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: fixed
+  }
+  */
+
+  .logout-button {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    background: linear-gradient(#8997ac, #4a5564);
+    border: none;
+    font-family: 'Patua One', cursive;
+    font-size:16px;
+    font-weight:400;
+    color:#ffffff;
+    text-align:center;
+    display:inline-block;
+    
+  
+}
+
+.main-container {
+  background-color: darkseagreen;
+  height: 100%;
+  margin-top: 20%;
+}
+
+.weapons-mousedown {
+  background-position: 15px 15px;
+}
+
+
+
+.weaponbutton-left {
+ float:left;
+
+}
+
+.weaponbutton-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.weapons-description {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  height: 500px;
+  background-color: darkgreen;
+}
+
+.weapons-normalsize {
+  transition-duration: 0.3s;
+  width: 30%;
+  height: 35%;
+}
+
+.weapons-enlarged {
+  transition-duration: 0.3s;
+  width: 33%;
+  height: 38%;
+ 
+}
+
+.weaponButton {
+  background: url("../img/wpn.png") no-repeat; 
+  background-size: cover;
+  position: relative;
+	border-radius: 4%;
+}
+
+.weaponsContainer {
+  float:left;
+  width: 720px;
+  height: 400px;
+  margin-left: 5%;
+  background-color: darkgoldenrod;
+  
+}
+
+.border-unselected {
+  border:4px solid #666;
+}
+
+.border-selected {
+  border:4px solid #bbb;
+}
+
+.headerOne {
+  height: 700px;
+  width: 700px;
+  background-color: darkgoldenrod;
+}
+
