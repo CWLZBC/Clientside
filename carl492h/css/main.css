@@ -55,15 +55,11 @@
 }
 
 .weapons-normalsize {
-  transition-duration: 0.3s;
-  width: 30%;
-  height: 35%;
+
 }
 
 .weapons-enlarged {
-  transition-duration: 0.3s;
-  width: 33%;
-  height: 38%;
+/* https://getcssscan.com/css-box-shadow-examples */
  
 }
 
@@ -71,7 +67,9 @@
   background: url("../img/wpn.png") no-repeat; 
   background-size: cover;
   position: relative;
-	border-radius: 4%;
+  width: 30%;
+  height: 35%;
+  margin: 20px;
 }
 
 .weaponsContainer {
@@ -84,11 +82,11 @@
 }
 
 .border-unselected {
-  border:4px solid #666;
+  
 }
 
 .border-selected {
-  border:4px solid #bbb;
+  box-shadow: rgba(150, 50, 93, 0.25) 0px 13px 27px -5px, rgba(150, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .headerOne {
