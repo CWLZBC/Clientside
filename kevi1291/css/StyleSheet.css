@@ -28,15 +28,13 @@ body * {
     width: 100%;
 }
 
-a.navbar-brand {
-    width: 75px;
-    height: 75px;
-
-    background-image: url("/img/Logo.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+.home {
+    position: relative;
+    top: 7%;
+    color: white;
+    font-size: 34px;
+    width: 100%;
 }
-
 
 main {
     background-color: whitesmoke;
