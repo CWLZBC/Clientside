@@ -3,35 +3,41 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    height: 1500px;
+
+    background-image: url(/img/wall.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 500px;
 }
 
 body * {
     border: solid red 1px;
 }
 
-#seperator{
-    visibility: hidden;
-    height: 80px;
+.banner {
+    padding: 0;
+    width: 100%;
+    height: auto;
 }
 
-nav{
-    position: fixed;
-    text-align: center;
-    height: 80px;
+.banner img {
+    width: 100%;
 }
 
-.head * {
-    height: 80px;
-    font-size: 30px;
-    line-height: 80px;
+a.navbar-brand {
+    width: 75px;
+    height: 75px;
+
+    background-image: url("/img/Logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
-#logo {
-    line-height: 0px;
-}
 
-#logo img {
-    position: relative;
-    vertical-align: middle;
-    padding: 2px 0;
+main {
+    background-color: whitesmoke;
 }
