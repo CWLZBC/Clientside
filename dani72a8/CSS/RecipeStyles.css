@@ -1,0 +1,40 @@
+.main{
+	padding: 2%;
+}
+
+.bg-col{
+	background-color: #FFFFFF;
+}
+.title{
+	text-align: center;
+}
+
+.recipecol{
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: #ffd9df;
+}
+.fremgangsmåde{
+	font-size: 15px;
+}
+.tip{
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 0 15px;
+	font-size: 12px;
+	margin: auto;
+	color: gray;
+	margin-bottom: 8px;
+}
+th, td{
+	width: 120px;
+	text-align: center;
+	padding: 5px;
+}
+
+
+

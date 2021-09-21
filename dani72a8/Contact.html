@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<head>
+		<title>Food</title>
+		<link rel="shortcut icon" href="./Images/FoodIcon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="./CSS/Styles.css">
+		<link rel="stylesheet" href="./CSS/RecipeStyles.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>	
+	</head>
+	
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="./index.html">Baking Co.</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarScroll">
+				<ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="./index.html">Recipes</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="./Contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<body>
+		<div class="col-md-6 col-md-offset-3">
+			<div class="well well-sm">
+			<form class="form-horizontal" action="" method="post">
+			<fieldset>
+				<legend class="text-center">Contact us</legend>
+		
+				<!-- Name input-->
+				<div class="form-group">
+				<label class="col-md-3 control-label" for="name">Name</label>
+				<div class="col-md-9">
+					<input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+				</div>
+				</div>
+		
+				<!-- Email input-->
+				<div class="form-group">
+				<label class="col-md-3 control-label" for="email">Your E-mail</label>
+				<div class="col-md-9">
+					<input id="email" name="email" type="text" placeholder="Your email" class="form-control">
+				</div>
+				</div>
+		
+				<!-- Message body -->
+				<div class="form-group">
+				<label class="col-md-3 control-label" for="message">Your message</label>
+				<div class="col-md-9">
+					<textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+				</div>
+				</div>
+		
+				<!-- Form actions -->
+				<div class="form-group">
+				<div class="col-md-12 text-right">
+					<button type="submit" class="btn btn-primary btn-lg">Submit</button>
+				</div>
+				</div>
+			</fieldset>
+			</form>
+			</div>
+		</div>
+	</body>
+</html>
