@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta charset="utf-8" />
+    <title>Struds</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 10px;
+            background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url(Strudsbilleder/struds1920x900.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial;
+        }
+
+        h1 {
+            font-size: 50px;
+            text-align: left;
+            padding: 20px;
+            border-bottom: solid;
+            border-color: black;
+        }
+
+        .topnav {
+            margin: auto;
+            position: center;
+            overflow: hidden;
+            background-color: black;
+            border-radius: 25px;
+        }
+
+            .topnav a {
+                float: left;
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 12px 14px;
+                text-decoration: none;
+                border-radius: 25px;
+            }
+
+                .topnav a:hover {
+                    background-color: #ddd;
+                    color: white;
+                    border-radius: 25px;
+                }
+
+        .leftcolumn {
+            float: left;
+            width: 33.33%;
+        }
+
+        .middlecolumn {
+            float: left;
+            width: 33.33%;
+            padding-left: 20px;
+        }
+
+        .rightcolumn {
+            float: left;
+            width: 33.33%;
+            padding-left: 20px;
+        }
+
+        .card {
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 20px;
+            border: 1px solid black;
+            border-radius: 25px;
+        }
+
+        div.gallery {
+            border: solid #777;
+            border-radius: 25px;
+        }
+
+            div.gallery:hover {
+                border: solid black;
+                border-radius: 25px;
+            }
+
+            div.gallery img {
+                width: 100%;
+                border-radius: 25px;
+            }
+
+        div.desc {
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            border-radius: 25px;
+        }
+
+        .lastpicbar {
+            overflow: hidden;
+            border-radius: 25px;
+        }
+
+        @keyframes imgbar {
+            0% {
+                left: -1500px;
+                top: 0px;
+            }
+
+            50% {
+                left: 1500px;
+                top: 0px;
+            }
+
+            100% {
+                left: -1500px;
+                top: 0px;
+            }
+        }
+
+        .imgbar {
+            display: block;
+            padding: 10px;
+            animation: imgbar 30s linear infinite;
+            position: relative;
+            border-radius: 25px;
+        }
+
+            .imgbar:hover {
+                animation-play-state: paused;
+            }
+
+        .imgset {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin-left: 25px;
+            border-radius: 25px;
+        }
+
+
+        @media only screen and (max-width: 1000px) {
+            h1 {
+                width: 100%;
+                text-align: center;
+                font-size: 30px;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .rightcolumn, .middlecolumn, .leftcolumn {
+                width: 100%;
+                padding-left: 0px;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            table {
+                float: none;
+                width: 100%;
+            }
+        }
+
+        @media only screen and (max-width: 1000px) {
+            .imgset {
+                width: 100px;
+                height: 100px;
+            }
+        }
+
+        section {
+            float: right;
+            color: black;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Den Hurtige Struds</h1>
+    <table class="topnav">
+        <tr>
+            <td><a href="https://www.google.com/search?q=struds&rlz=1C1GCEA_enDK942DK942&hl=da&sxsrf=AOaemvKRTw-tnvqYYLIxCYmwAZoYq01dXw:1631782150069&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjK5J6bjoPzAhU9QvEDHUS3BHEQ_AUoAXoECAEQAw&biw=1920&bih=937&dpr=1">Strudse billeder</a></td>
+            <td><a href="https://www.youtube.com/watch?v=qoysgNclnVs&ab_channel=givskudzootv">Video af strudser</a></td>
+            <td><a href="https://da.wikipedia.org/wiki/Struds">Struds Wikipedia</a></td>
+        </tr>
+    </table>
+
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="Strudsbilleder/strudsHurtig.JPEG">
+                            <img src="Strudsbilleder/strudsHurtig.JPEG" alt="M�gtig struds der nyder tilv�rlsen" />
+                        </a>
+                        <div class="desc">M�gtig struds der nyder tilv�rlsen</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="Strudsbilleder/strudsAnsigt.jpg">
+                            <img src="Strudsbilleder/strudsAnsigt.jpg" alt="Struds t�t p�" />
+                        </a>
+                        <div class="desc">En nysgerrig struds helt t�t p�</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="middlecolumn">
+            <div class="card">
+                <p>
+                    Strudsen er verdens st�rste fugl. Den har ingen fjer p� hverken hals eller ben og er, ligesom andre strudsefugle, ikke i stand til at flyve. Til geng�ld kan den l�be st�rkt. Over korte afstande kan den n� en topfart p� op til 70 km/t med en skridtl�ngde p� 3,5 m. Strudsen bruger desuden de veludviklede ben til spark, hvis den f�ler sig truet. Strudsen har kun to t�er p� foden, hvor alle andre fugle har 3 eller 4.
+                </p>
+            </div>
+            <div class="card">
+                <p>
+                    Strudsen har et yderst veludviklet syn, faktisk er strudsens �jne s� store, at de fylder over halvdelen af pladsen i strudsens hoved. Dermed er der ikke s�rlig meget plads til strudsens hjerne, der ogs� kun lige er p� st�rrelse med en valn�d og vejer ca. 40 g. Omkring halvdelen af strudsens hjernekapacitet menes at g� til behandling af synsindtrykkene fra de store �jne.
+                </p>
+            </div>
+            <div class="card">
+                <p>
+                    Strudse ses af og til ligge fladt p� jorden, med halsen udstrakt, n�r den hviler sig. Det menes at denne adf�rd, har givet ophav til skr�nen om, at strudse stikker hovedet i jorden, hvis den bliver bange. Skulle dette ske, vil strudse dog altid tage flugten.
+                </p>
+            </div>
+            <div class="card">
+                <p>
+                    Hos strudse er h�nerne helt gr�brune, mens hannerne er sorte med hvide hale- og svingfjer. Strudsene skraber en rede i sandet, hvor alle hunnerne i flokken l�gger deres �g. Der kan derfor v�re mellem 15 og 60 �g i hver rede. Et strudse�g er typisk 15 cm. langt, 12,5 cm bredt og vejer over 1 kg. B�de han- og hunstrudsen udruger �ggene, dette tager omkring 40 dage. Normalvis ruger hannen p� �ggene om natten og hunnen om dagen. Denne arbejdsfordeling skyldes, at hannen er bedst kamufleret om natten med sin sorte fjerdragt, og hunnen med sin brune fjerdragt falder bedst i med omgivelserne om dagen.
+                </p>
+            </div>
+            <div class="card">
+                <p>
+                    Strudse er kendt for sine "b�rnehaver", hvor flere h�ner sl�r sig sammen om pasningen af mange kuld kyllinger. I disse b�rnehaver kan der v�re over 100 kyllinger, men kun ca. 15% af disse kyllinger vil blive mere end et �r gamle.
+                </p>
+            </div>
+        </div>
+
+        <div class="rightcolumn">
+            <div class="card">
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="Strudsbilleder/struds.jpg">
+                            <img src="Strudsbilleder/struds.jpg" alt="Struds t�t p�" />
+                        </a>
+                        <div class="desc">Strudsen med sit elegante br�l</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="responsive">
+                    <div class="gallery">
+                        <a target="_blank" href="Strudsbilleder/strudsag.jpg">
+                            <img src="Strudsbilleder/strudsag.jpg" alt="Struds t�t p�" />
+                        </a>
+                        <div class="desc">Strudsen f�r plejet sine �g</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="lastpicbar">
+        <div class="imgbar">
+            <img class="imgset" src="Strudsbilleder/last bar/4fe88e96c20401bf59278717f610ec08.jpg" alt="Struds t�t p�" />
+            <img class="imgset" src="Strudsbilleder/last bar/download.jpg" alt="Struds t�t p�" />
+            <img class="imgset" src="Strudsbilleder/last bar/Hahn_01-1024x923.jpg" alt="Struds t�t p�" />
+            <img class="imgset" src="Strudsbilleder/last bar/ostriches-3927186_960_720.jpg" alt="Struds t�t p�" />
+            <img class="imgset" src="Strudsbilleder/last bar/ostriches-young-ostriches-animals-safari-runner-south-africa-nature-feathers-bird.jpg" alt="Struds t�t p�" />
+            <img class="imgset" src="Strudsbilleder/last bar/strudseflok-i-afrika-1024x556.jpg" alt="Struds t�t p�" />
+            <img class="imgset" src="Strudsbilleder\last bar\strudserprovervirtualreality-e1491453580127.png" alt="Struds t�t p�" />
+            <img class="imgset" src="Strudsbilleder/last bar/y0b4093.jpg" alt="Struds t�t p�" />
+        </div>
+    </div>
+
+    <br />
+    <div class="clearfix"></div>
+    <br />
+
+    <section>
+        <i class="material-icons">cloud</i>
+        <i class="material-icons">favorite</i>
+        <i class="material-icons">attachment</i>
+        <i class="material-icons">computer</i>
+    </section>
+
+    <script>
+    </script>
+</body>
+</html>
