@@ -9,26 +9,47 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+    #ampText img  {
+        float: none !important;
+    }
 
     .textWImage p {
         max-width: 100% !important;
-        margin: 50%;
     }
     
     .textWImage .polaroid {
         width: 100%;
-        margin: 5%;
+        margin-bottom: 2%;
         
-        max-width: 100% !important;
     }
     .textWImage .polaroid p {
         width: 100%;
-        max-width: 100% !important;
     }
     
     .textWImage{
         display: inline-block;
-        
-        max-width: 100% !important;
+    }
+
+    .Write .polaroid {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    table {
+        float: left;
+        max-width: 100%;
+        margin-right: 1%;
+        max-height: auto;
+        display: inline;
+    }
+
+    #footerManage ul {
+        margin: 3% auto;
+        width: 88% ;
+        float: none ;
+    }
+    
+    #footerManage img {
+        max-width: 75%;
     }
 }

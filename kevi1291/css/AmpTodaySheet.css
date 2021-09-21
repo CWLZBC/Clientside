@@ -1,0 +1,13 @@
+h2 {
+    margin-top: 2%;
+}
+
+.polaroid {
+    max-height: 358px;
+    display: inline-block;
+    width: 19%;
+}
+
+.polaroid img {
+    max-height: 250px;
+}
