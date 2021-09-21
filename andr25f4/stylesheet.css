@@ -1,0 +1,87 @@
+body {
+    background-color: greenyellow;
+    padding: 10px;
+}
+.leftcolumn {
+    float: left;
+    width: 33.33%;
+    padding-left: 20px;
+}
+.middlecolumn {
+    float: left;
+    width: 33.33%;
+    padding-left: 20px;
+}
+.rightcolumn {
+    float: left;
+    width: 33.33%;
+    padding-left: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+.card {
+    margin-top: 20px;
+    /*background-color: white;
+    opacity: 0.5;*/
+    padding: 10px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.twocolumnleft {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+.twocolumnright {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+}
+p {
+   font-size: 14px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.paddingleft {
+    padding-left: 10px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #45A946;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {  
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 26px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Change the color of links on hover */
+    .topnav a:hover {
+        background-color: #01FC87;
+        color: black;
+    }
+.logo {
+    padding-top: 30px;    
+    width: 300px;
+    height: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: auto;
+    padding-top: 30px;
+}
