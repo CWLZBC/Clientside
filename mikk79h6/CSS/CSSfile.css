@@ -1,13 +1,14 @@
 main * {
-    color: #343a40;
+    color: #F2A444;
     justify-content: center;
 }
 
 main {
     text-align: center;
-    background-color: #F2A444;
+    background-color: #343a40;
     opacity: 85%;
     max-width: 600px !important;
+    font-weight: 600;
 }
 
 body {
@@ -24,9 +25,10 @@ nav {
 
 .introduction h1, .introduction h3 {
     margin: 25px;
+    font-weight: 600;
 }
 
-.introduction h5, .introduction p {
+.introduction h4, .introduction p {
     margin: 2px;
 }
 
@@ -34,8 +36,10 @@ nav {
     font-size: 1em;
 }
 
-.introduction h5 {
+.introduction h4 {
     margin-top: 15px;
+    font-weight: 900;
+    letter-spacing: 0.15mm;
 }
 
 .varieties {
@@ -86,5 +90,5 @@ nav {
 }
 
 .extlink {
-    
+    padding-bottom: 15;
 }
