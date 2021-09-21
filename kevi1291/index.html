@@ -21,88 +21,167 @@
     <!-- Google Icons API -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <title>Duck | Quack</title>
-    <link href="./css/StyleSheet.css" rel="StyleSheet" type="text/css">
+
+    <!-- Scripting Unlocking -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <!-- Loading HTML -->
+    <script>
+        $(function () {
+            $("#banner").load("common/banner.html");
+            $("#nav").load("common/nav.html");
+            $("#foot").load("common/footer.html");
+        })
+    </script>
+
+    <!-- Personalized Data -->
+    <title>& is itself And</title>
+    <link href="./css/PrimarySheet.css" rel="StyleSheet" type="text/css">
+    <link href="./css/StylesheetSmall.css" rel="StyleSheet" type="text/css">
+    <link href="./css/BannerSheet.css" rel="StyleSheet" type="text/css">
+    <link href="./css/NavSheet.css" rel="StyleSheet" type="text/css">
+    <link href="./css/FooterSheet.css" rel="StyleSheet" type="text/css">
 </head>
 
 <!-- Visible Page Content starts here. -->
 
-<body>
-
-    <div class="container-fluid banner">
-        <img src="./img/bannerTree.png">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- To visualize the columns -->
+    <div class=" row example">
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
+        <div class="col-1"></div>
     </div>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-                <span class="material-icons home" href="#">home</span>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
-        </ul>
-    </nav>
+    <div id="banner" class="container-fluid row banner"></div>
+
+    <nav id="nav" class="navbar navbar-expand-md shadow-lg bg-dark navbar-dark justify-content-center sticky-top"></nav>
+
+    <main class="container shadow-lg">
+        <div id="AmpStart"></div>
+        <h1>The Ampersand</h1>
+
+        <p>
+            The ampersand is the name of the logogram, <strong>&</strong>, also known as the <em>and</em> sign.
+            The logogram originated as representing the ligature/combination of the letters <em>et</em> - Latin for
+            "and".
+        </p>
 
 
-    <main class="container">
-        <p class="welcome">Welcome to my website!</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus urna id risus egestas, sed volutpat orci
-            feugiat. Curabitur congue, nunc et tincidunt tempor, nisi dolor ullamcorper orci, quis euismod eros arcu
-            auctor nisi. Mauris placerat sapien eu fringilla sodales. Morbi ligula purus, placerat gravida gravida sed,
-            maximus sed ante. Curabitur ex dui, vulputate eget odio at, pulvinar hendrerit est. Fusce facilisis ligula
-            sapien, ut rhoncus eros lobortis eleifend. Sed bibendum interdum urna eget egestas. Suspendisse accumsan,
-            libero sit amet efficitur pharetra, ipsum nibh egestas justo, et tempor tellus nunc eget velit.
 
-            Integer finibus, ante nec ullamcorper rutrum, enim lorem ultrices ex, eget hendrerit velit enim sit amet
-            sem. Pellentesque vel condimentum mi, vitae cursus sapien. Proin ac laoreet nulla. Morbi sed condimentum
-            metus, ac dignissim lacus. Pellentesque ipsum ante, rhoncus sed hendrerit ut, efficitur volutpat orci.
-            Quisque accumsan pretium metus, non congue leo convallis sit amet. Mauris luctus sit amet nisi nec
-            fringilla. Curabitur at ex lectus. Nullam feugiat nunc ac scelerisque lobortis. Pellentesque placerat sit
-            amet sapien at faucibus. Aliquam sed quam felis. Suspendisse et enim ut tortor aliquet sollicitudin vehicula
-            non felis. Phasellus fringilla ornare arcu a sagittis. Maecenas libero diam, tincidunt non turpis in,
-            vehicula facilisis purus.
+        <h2 id="AmpOrigin">The Origin</h2>
+        <div class="textWImage">
+            <p>
+                In English-speaking schools, when reciting the alphabet, traditionally any letter that could also be
+                used as
+                a word in itself was repeated with the Latin expression <em>per se</em>.
+                This was letters such as "A", "I", and "O", followed with saying "by itself" in Latin, thereby saying "A
+                per
+                se A".
+            </p>
+            <div class="polaroid">
+                <img src="/img/AmpImg.png" alt="5 Terre" style="width:100%">
+                <div class="container">
+                    <p>Ampersand</p>
+                </div>
+            </div>
+            <p>
+                It was also a common practise to add the <strong>&</strong> sign at the end of the alphabet, as if it
+                were
+                the 27th letter. <br>As a result, whilst pronouncing it in Latin <em>et</em> or later in English as
+                <em>and</em>, the recitation of the alphabet would end in "X, Y, Z, <em>and per se and</em>".
+                The last phrase was routinely slurred from "<em>and per se and</em>" to "<em>ampersand</em>", thus
+                allowing
+                the term to enter common English usage by 1837.
+            </p>
+        </div>
+        <h2 id="AmpUsage">The Usage</h2>
+        <p>
+            Ampersands are commonly seen in business names formed from partnership of two or more people, such as
+            Johnson & Johnson, Dolce & Gabbana, Marks & Spencer, and Tiffany & Co., as well as some abbreviations
+            containing the word and, such as:
+        </p>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Abbreviation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>American Telephone and Telegraph</td>
+                    <td>AT&T</td>
+                </tr>
+                <tr>
+                    <td>The Great Atlantic & Pacific Tea Company</td>
+                    <td>A&P</td>
+                </tr>
+                <tr>
+                    <td>Research and Development</td>
+                    <td>R&D</td>
+                </tr>
+                <tr>
+                    <td>Drum and Bass</td>
+                    <td>D&B</td>
+                </tr>
+                <tr>
+                    <td>Rhythm and Blues</td>
+                    <td>R&B</td>
+                </tr>
+                <tr>
+                    <td>Bed and Breakfast</td>
+                    <td>B&B</td>
+                </tr>
+                <tr>
+                    <td>Profit and Loss</td>
+                    <td>P&L</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>In film credits for stories, screenplays, etc., & indicates a closer collaboration than and. The ampersand
+            is used by the Writers Guild of America to denote two writers collaborating on a specific script, rather
+            than one writer rewriting another's work. In screenplays, two authors joined with & collaborated on the
+            script, while two authors joined with and worked on the script at different times and may not have consulted
+            each other at all. In the latter case, they both contributed enough significant material to the
+            screenplay to receive credit but did not work together.
+        </p>
 
-            Integer at mauris iaculis, pulvinar tellus pharetra, egestas purus. Aliquam sapien nunc, placerat vitae enim
-            at, tincidunt faucibus velit. Morbi euismod tincidunt iaculis. In hac habitasse platea dictumst. Mauris
-            ullamcorper aliquet pretium. Etiam in mi orci. Vestibulum eros nisi, maximus non mollis ac, porta eu sapien.
-            Fusce justo magna, luctus in pellentesque a, malesuada quis lectus. Aliquam ultricies, nunc a finibus
-            sollicitudin, dolor tortor bibendum elit, placerat sollicitudin leo dolor eget lacus.
+        <p>
+            In APA style, the ampersand is used when citing sources in text such as (Jones & Jones, 2005). In the list
+            of references, an ampersand precedes the last author's name when there is more than one author.
+        </p>
 
-            Phasellus non venenatis odio. Maecenas nec nisi et lacus ultricies sodales et sed risus. Pellentesque
-            habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam tortor eros, tincidunt
-            quis risus vel, auctor ullamcorper tellus. Aenean at elit ut est vulputate accumsan vel vitae turpis. Duis
-            sit amet libero felis. Ut tristique pharetra nibh, et vestibulum mauris porttitor eget. Maecenas dignissim,
-            est a varius malesuada, nulla neque luctus elit, sagittis placerat felis nibh sed purus. Donec ac nisl non
-            justo dictum consectetur non sed dui.
+        <p>
+            The phrase et cetera ("and so forth"), usually written as etc. can be abbreviated &c. representing the
+            combination et + c(etera).
+        </p>
 
-            Etiam pretium viverra vehicula. Cras eros justo, vulputate ac viverra eu, luctus in velit. Pellentesque
-            justo dui, aliquet ac sapien mattis, elementum rutrum orci. Praesent ac semper velit. Pellentesque porttitor
-            lorem nec ante luctus, sit amet porta elit blandit. Etiam varius neque eget augue dignissim eleifend. Nam
-            rhoncus lectus quis elit hendrerit, iaculis posuere mi molestie.</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            <p>enter</p>
-            
+        <p>
+            The ampersand can be used to indicate that the "and" in a listed item is a part of the item's name and not a
+            separator (e.g. "Rock, pop, rhythm & blues, and hip hop").
+        </p>
+
+        <p>
+            The ampersand may still be used as an abbreviation for "and" in informal writing regardless of how "and" is
+            used.
+        </p>
+
+
+        <br><br><br><br><br><br><br><br><br><br>
+
     </main>
-    <br><br><br><br><br><br><br><br><br><br>
-    <footer style="background-color: white;">
-        <p>The end</p>
-        <p>The end</p>
-    </footer>
+    <footer id="foot"></footer>
 </body>
 
 </html>

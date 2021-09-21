@@ -1,0 +1,51 @@
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    background-image: url(/img/background.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 500px;
+}
+
+body * {
+    border: solid red 1px;
+}
+
+.example {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    height: 25px;
+}
+
+main {
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+#AmpStart {
+    margin-top: 2%;
+}
+
+.textWImage p {
+    max-width: 84%;
+}
+
+.textWImage .polaroid {
+    float:right;
+    width: 15%;
+}
+.textWImage .polaroid p {
+    width: 100%;
+    margin: 0;
+}
+
+.textWImage{
+    display: inline-block;
+}

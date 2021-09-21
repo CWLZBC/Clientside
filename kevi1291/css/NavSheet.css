@@ -1,0 +1,21 @@
+.navbar {
+    padding: 4px 8px;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+    padding: 0;
+}
+
+.home {
+    vertical-align: middle;
+    font-size: 35px;
+}
+
+.navbar-nav {
+    justify-content: center;
+}
+
+.navbar-nav li {
+    justify-content: center;
+}

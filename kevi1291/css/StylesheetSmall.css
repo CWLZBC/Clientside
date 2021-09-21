@@ -1,0 +1,34 @@
+@media (max-width: 768px) {
+    .banner div {
+        display: none;
+    }
+
+    #ampText {
+        display: block;
+        margin: auto;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .textWImage p {
+        max-width: 100% !important;
+        margin: 50%;
+    }
+    
+    .textWImage .polaroid {
+        width: 100%;
+        margin: 5%;
+        
+        max-width: 100% !important;
+    }
+    .textWImage .polaroid p {
+        width: 100%;
+        max-width: 100% !important;
+    }
+    
+    .textWImage{
+        display: inline-block;
+        
+        max-width: 100% !important;
+    }
+}
