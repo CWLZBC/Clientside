@@ -1,68 +1,5 @@
-#yeet{
-	padding-top: 40px;
-	margin: auto;
-	max-width:1500px;
-}
-
-
-* {
-  box-sizing: border-box;
-}
-
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
-
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-#navbar a.active {
-  background-color: lightblue;
-  color: white;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
-.banner{
-	max-height: 200px;
-}
-
-.column{
-	float: left;
-	width: 50%;
-	padding: 10px;
-	height: 300px;
-	
-}
-
-.row:after{
-	content: "";
-	display: table;
-	clear: both;
+body{
+	background-color: #F8F8F8 !important;
 }
 
 .responsive{
@@ -74,15 +11,51 @@
 	text-align: center;
 }
 .recipeimg{
+	padding-left: 10px;
 	float:right;
 	max-height: auto;
 	max-width: 400px;
 	width: 100%;
 	height: auto;
 }
-.product{
-	padding-bottom: 10px;
+
+.content{
+	margin-top: 20px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.colborder{
 	border-top: 2px #D3D3D3;
 	border-bottom: 0px;
 	border-style: solid none;
+}
+.colborderbot{
+	border-top: 0px;
+	border-bottom: 2px #D3D3D3;
+	border-style: solid none;
+}
+
+[class*="col-"] {
+	margin: auto;
+	margin-top: 20px;
+	float: center;
+}
+
+.row:after{
+	content: "";
+	display: table;
+	clear: both;
 }
