@@ -1,9 +1,21 @@
-/* body * {
-    border: 1px solid red;
-} */
+main * {
+    color: #343a40;
+    justify-content: center;
+}
 
 main {
     text-align: center;
+    background-color: #F2A444;
+    opacity: 85%;
+    max-width: 600px !important;
+}
+
+body {
+    background-image: url("https://foodtruckempire.com/wp-content/uploads/pizza-value.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 nav {
@@ -19,12 +31,60 @@ nav {
 }
 
 .introduction p {
-    font-size: 12px;
+    font-size: 1em;
 }
+
 .introduction h5 {
     margin-top: 15px;
 }
 
-.container h3 {
-    margin: 25px;
+.varieties {
+    padding-bottom: 15px;
+}
+
+.varieties p {
+    font-size: 1em;
+}
+
+.imgvar {
+    max-width: 600px !important;
+    opacity: 95%;
+}
+
+.table {
+    padding-bottom: 15px;
+}
+
+.table th, td {
+    color: #F2A444;
+}
+
+.panel-body:not(.two-col) {
+    padding: 0px;
+}
+
+.panel-body .radio, .panel-body .checkbox {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.panel-body .list-group {
+    margin-bottom: 0;
+}
+
+.margin-bottom-none {
+    margin-bottom: 0;
+}
+
+.panel-body .radio label, .panel-body .checkbox label {
+    display: block;
+}
+
+.pineapple {
+    padding: 15px 0;
+    max-width: 600px !important;
+}
+
+.extlink {
+    
 }
