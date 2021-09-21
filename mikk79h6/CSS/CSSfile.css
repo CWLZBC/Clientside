@@ -1,0 +1,30 @@
+/* body * {
+    border: 1px solid red;
+} */
+
+main {
+    text-align: center;
+}
+
+nav {
+    justify-content: center;
+}
+
+.introduction h1, .introduction h3 {
+    margin: 25px;
+}
+
+.introduction h5, .introduction p {
+    margin: 2px;
+}
+
+.introduction p {
+    font-size: 12px;
+}
+.introduction h5 {
+    margin-top: 15px;
+}
+
+.container h3 {
+    margin: 25px;
+}
