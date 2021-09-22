@@ -4,49 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen and (min-width: 701px)" href="css/desktop.css" />
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="css/mobile.css" />
     <title>Carlos Hjemmeside</title>
 </head>
 <body>
-    <div class="main-container">
+    <div class="header-text-gradient">
+        <div class="header-text">Carlo's Armory</div>
+    </div>
+   
+    <div class="weapons-section">
         <div class="weaponsContainer">
-            <div onmousedown="mouseDownDiv(this)" onmouseover="mouseOverDiv(this)" onmouseout="mouseOutDiv(this)" class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w1">
-                
-            </div>
-            <div onmousedown="mouseDownDiv(this)" onmouseover="mouseOverDiv(this)" onmouseout="mouseOutDiv(this)" class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w2">
-                
-            </div>
-            <div onmousedown="mouseDownDiv(this)" onmouseover="mouseOverDiv(this)" onmouseout="mouseOutDiv(this)" class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w3">
-                
-            </div>
-
-            <div onmousedown="mouseDownDiv(this)" onmouseover="mouseOverDiv(this)" onmouseout="mouseOutDiv(this)" class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w3">
-                
-            </div>
-
-            <div onmousedown="mouseDownDiv(this)" onmouseover="mouseOverDiv(this)" onmouseout="mouseOutDiv(this)" class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w3">
-                
-            </div>
-
-            <div onmousedown="mouseDownDiv(this)" onmouseover="mouseOverDiv(this)" onmouseout="mouseOutDiv(this)" class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w3">
-                
-            </div>
-
-           
-                
-            </div>
-    
+            <div onclick="weaponButtonClick(this)" id="ak47" class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w1"></div>
+            <div onclick="weaponButtonClick(this)" id="awp" class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w2"></div>
+            <div onclick="weaponButtonClick(this)" id="aug"class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w3"></div>
+            <div onclick="weaponButtonClick(this)" id="ump"class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w3"></div>
+            <div onclick="weaponButtonClick(this)" id="famas"class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w3"></div>
+            <div onclick="weaponButtonClick(this)" id="remington"class="weaponButton border-unselected weapons-normalsize weaponbutton-left" id="w3"></div>
         </div>
-    
-        
-        <div class="weapons-description">
-                
-        </div>
+    </div>
+    <div id="weapons-description" class="description-hidden">
+         <div id="description-weapon-name"></div>       
+         <div id="description-body"></div>       
+    </div>
     </div>
     
 
-
+    <script type="text/javascript" src="js/descriptions.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+
 </body>
 </html>
