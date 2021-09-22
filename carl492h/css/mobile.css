@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+ 
+body { 
+    background-color: rgb(39, 39, 44);
+
+}
+
+
+.header-text {
+    height: 300px;
+    width: 100%;
+    font-family: "Cutive Mono", monospace;
+    font-weight: bold;
+    text-decoration: overline;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(186, 69, 186);
+    line-height: 300px;
+    -webkit-text-fill-color: rgba(181, 116, 220, 0.3);
+}
+  
+
+.header-text-gradient{
+    background: linear-gradient(to right, #E35CC6 30%, #B574DC 40%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+  
+.header-div {
+height: 400px;
+}
+  
+
+
+.main-container {
+  background-color: darkseagreen;
+  height: 100%;
+}
+
+#weapons-description {
+  margin: auto;
+  
+}
+
+#description-weapon-name {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-family: "Cutive Mono", monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 42px;
+  color: rgb(194, 194, 194);
+}
+
+#description-body {
+  margin-top: 15px;
+  width: 100%;
+  font-family: "Cutive Mono", monospace;
+  font-weight: bold;
+  text-align: left;
+  font-size: 18px;
+  color: rgb(194, 194, 194);
+}
+
+.description-hidden {
+  border: none;
+  width: 0px;
+  height: 0px;
+  transition-duration: 0.3s;
+}
+
+.description-show {
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+  border-image-source: linear-gradient(to left, #B574DC ,#0e8291 );
+  width: 93%;
+  height: 100%;
+  transition-duration: 0.3s;
+  transform: translate(11px);
+  margin-top: 10px;
+}
+
+.weaponButton {
+  background-size: cover;
+  float:left;
+  width: 45%;
+  height: 30%;
+  margin: 5px;
+  border: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to left, #B574DC ,#0e8291 );
+}
+
+.weaponButton:hover {
+  transform: scale(1.05, 1.05);
+  transition-duration: 0.2s;
+}
+
+.weapons-section {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  transform: translate(16px); /* no time for a non-hardcoded fix */
+}
+
+.weaponsContainer {
+  width: 100%;
+  height: 320px;
+  margin-bottom: 15px;
+}
+
+.weapon-selected {
+  filter: grayscale(100%);
+  filter: sepia(50%);
+  border: 1px solid #ddd;
+}
+
+.headerOne {
+  height: 700px;
+  width: 700px;
+  background-color: darkgoldenrod;
+}
+

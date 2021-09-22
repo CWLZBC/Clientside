@@ -185,6 +185,27 @@
             padding: 10px;
         }
     </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        function playclip() {
+            var audio = document.getElementsByTagName("audio")[0];
+            audio.play();
+        }
+        $(document).ready(function () {
+            $('.gallery').on('mouseenter', function () {
+                if (!$(this).hasClass('.played')) {
+                    playclip();
+                    $(this).addClass('.played');
+                }
+            });
+            $('.gallery').on('mouseleave', function () {
+                if ($(this).hasClass('.played')) {
+                    $(this).removeClass('.played');
+                }
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -196,6 +217,11 @@
             <td><a href="https://da.wikipedia.org/wiki/Struds">Struds Wikipedia</a></td>
         </tr>
     </table>
+
+    <audio preload="auto">
+        <source src="Strudsbilleder/OstrichSound.mp3" type="audio/mp3">
+        <source>
+    </audio>
 
     <div class="row">
         <div class="leftcolumn">
@@ -296,8 +322,5 @@
         <i class="material-icons">attachment</i>
         <i class="material-icons">computer</i>
     </section>
-
-    <script>
-    </script>
 </body>
 </html>

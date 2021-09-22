@@ -1,0 +1,50 @@
+#foot {
+    margin-top: 15%;
+    background-color: #464F40;
+}
+
+footer * {
+    
+}
+
+footer > div > * {
+    color: #BCBFB0;
+    
+}
+
+footer .list-group-item {
+    background-color: #464F40;
+}
+footer ul {
+    
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-left: 3%;
+    width: 30%;
+    float: left;
+    /* min-width: 274px; */
+}
+
+footer ul li a {
+    
+    color: #9EB087;
+    text-decoration: underline;
+}
+
+footer ul li a:hover {
+    color: #BCBFB0 !important;
+    text-decoration: underline;
+}
+
+footer ul li a:visited {
+    color: #7F876F;
+    text-decoration: underline;
+}
+
+footer img {
+    max-width: 20%;
+}
+footer > div > p {
+    margin-top: 2%;
+    margin-bottom: 0;
+}

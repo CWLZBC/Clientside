@@ -1,0 +1,83 @@
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position: relative;
+
+    background-image: url(/img/background.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 500px;
+}
+
+.example {
+    margin: 0;
+    width: 100%;
+    position: absolute;
+    height: 25px;
+}
+
+main {
+    background-color: whitesmoke;
+    opacity: 90%;;
+    text-align: left;
+    padding-bottom: 2%;
+}
+
+main p {
+    margin-bottom: 8px;
+     
+    font-size: 1.1em;
+}
+
+#AmpStart {
+    margin-top: 2%;
+}
+
+.textWImage{
+    display: inline-block;
+}
+
+.textWImage p {
+    max-width: 84%;
+}
+
+.textWImage .polaroid {
+    float: left;
+    width: 15%;
+    margin-right: 1%;
+    padding: 0 1% 1% 1%;
+}
+
+.textWImage .polaroid div {
+    padding: 0;
+}
+
+.textWImage .polaroid p {
+    margin: 1% 0 0 0;
+}
+
+blockquote {
+    clear: left;
+}
+
+blockquote p {
+    font-size: 1em;
+}
+
+table {
+    float: left;
+    max-width: 40%;
+    margin-right: 1%;
+    max-height: auto;
+    display: inline;
+}
+
+#AmpUsage p {
+    margin-bottom: 6px;
+    max-width: 100%;
+}
