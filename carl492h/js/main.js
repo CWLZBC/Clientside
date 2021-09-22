@@ -16,7 +16,7 @@ buttons[5].style.backgroundImage = "url('img/shotgun.png')";
 
 
 
-
+// when you click on a button
 function weaponButtonClick(div){
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].classList.remove("weapon-selected");        
@@ -69,12 +69,4 @@ function SelectElement(element){
 
 function UnSelectElement(element){
     element.classList.remove("weapon-selected");
-}
-
-function mouseDownDiv(div){
-
-}
-
-function GetWeaponDescription(weapon){
-    
 }
