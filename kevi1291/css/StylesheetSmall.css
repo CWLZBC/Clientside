@@ -1,0 +1,55 @@
+@media (max-width: 768px) {
+    .banner div {
+        display: none;
+    }
+
+    #ampText {
+        display: block;
+        margin: auto;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #ampText img  {
+        float: none !important;
+    }
+
+    .textWImage p {
+        max-width: 100% !important;
+    }
+    
+    .textWImage .polaroid {
+        width: 100%;
+        margin-bottom: 2%;
+        
+    }
+    .textWImage .polaroid p {
+        width: 100%;
+    }
+    
+    .textWImage{
+        display: inline-block;
+    }
+
+    .Write .polaroid {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+
+    table {
+        float: left;
+        max-width: 100%;
+        margin-right: 1%;
+        max-height: auto;
+        display: inline;
+    }
+
+    #footerManage ul {
+        margin: 3% auto;
+        width: 88% ;
+        float: none ;
+    }
+    
+    #footerManage img {
+        max-width: 75%;
+    }
+}

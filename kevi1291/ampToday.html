@@ -1,0 +1,98 @@
+<!DOCTYPE html> <!-- Details the document type to the browser. -->
+<!-- Defines the area to expect html code, with an attribute detailing language. -->
+<html lang="en">
+<!-- The head containing Meta data detailing the document. -->
+
+<head>
+    <!-- The HTML encoding used for character conversion. -->
+    <!-- UTF-8 is the recommended character set for HTML5. -->
+    <meta charset="utf-8">
+    <!-- Bootstrap mobile first. Follow device width & initial zoom level. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Google Icons API -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+    <!-- Scripting Unlocking -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <!-- Loading HTML -->
+    <script>
+        $(function () {
+            $("#banner").load("common/banner.html");
+            $("#nav").load("common/nav.html");
+            $("#foot").load("common/footer.html");
+        })
+    </script>
+
+    <!-- Personalized Data -->
+    <title>& | Writing</title>
+    <link href="css/PrimarySheet.css" rel="StyleSheet" type="text/css">
+    <link href="css/StylesheetSmall.css" rel="StyleSheet" type="text/css">
+    <link href="css/BannerSheet.css" rel="StyleSheet" type="text/css">
+    <link href="css/NavSheet.css" rel="StyleSheet" type="text/css">
+    <link href="css/FooterSheet.css" rel="StyleSheet" type="text/css">
+    <link href="css/AmpTodaySheet.css" rel="StyleSheet" type="text/css">
+</head>
+
+<!-- Visible Page Content starts here. -->
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div id="banner" class="container-fluid row banner"></div>
+
+    <nav id="nav" class="navbar navbar-expand-md shadow-lg navbar-custom justify-content-center sticky-top"></nav>
+
+    <main class="container shadow-lg">
+        <h2>Today's Ampersand</h2>
+        <p>
+            In everyday handwriting, the ampersand is sometimes simplified in design as a large lowercase epsilon 'Ɛ' or a
+            reversed numeral '3', superimposed by a vertical line. The ampersand is also sometimes shown as an epsilon
+            with a vertical line above and below it or a dot above and below it.
+            The plus sign '+' (itself based on an et-ligature) is often informally used in place of an ampersand, sometimes with an added loop and resembling 'ɬ'.
+        </p>
+        <div class="Write">
+            <div class="polaroid shadow">
+                <img src="img/AmpWrite1.jpg" alt="5 Terre" style="width:100%">
+                <div class="container">
+                    <p>An ampersand written with a vertical stroke.</p>
+                </div>
+            </div>
+            <div class="polaroid shadow">
+                <img src="img/AmpWrite2.jpg" alt="5 Terre" style="width:100%">
+                <div class="container">
+                    <p>An ampersand written with the vertical stroke merged into the edges.</p>
+                </div>
+            </div>
+            <div class="polaroid shadow">
+                <img src="img/AmpWrite3.png" alt="5 Terre" style="width:100%">
+                <div class="container">
+                    <p>Example of ampersand based on a crossed epsilon, as might be handwritten.</p>
+                </div>
+            </div>
+            <div class="polaroid shadow">
+                <img src="img/AmpWrite4.jpg" alt="5 Terre" style="width:100%">
+                <div class="container">
+                    <p>A handwritten plus sign used, like the ampersand, to mean '<em>and</em>'.</p>
+                </div>
+            </div>
+            <div class="polaroid shadow">
+                <img src="img/AmpWrite5.png" alt="5 Terre" style="width:100%">
+                <div class="container">
+                    <p><em>Et</em> ligature in Insular script.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="foot"></footer>
+</body>
+</html>
