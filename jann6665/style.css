@@ -1,0 +1,45 @@
+h1, h3{
+    text-align:center;
+}
+h3{
+    color:yellow;
+}
+h1 a{
+    text-decoration:none;
+}
+h1 a:hover{
+    color:inherit;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+ol {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+li {
+    margin-bottom:10px;
+}
+#home {
+    color:chartreuse;
+}
+#facts {
+    color:peru;
+}
+#videos {
+    color:red;
+}
+.container-fluid .row {
+    padding: 10px;
+    background-color:black;
+}
+img {
+    display:block;
+    margin:auto;
+}
+#latest {
+    width:100%;
+}
