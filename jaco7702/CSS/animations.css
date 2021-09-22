@@ -1,23 +1,23 @@
 @keyframes lama-animate-bg {
     0%,100%
     {
-        background-image: url("/jaco7702/Images/lama\ animation\ 2.png");
+        background-image: url("../Images/lama\ animation\ 2.png");
     }
     20%
     {
-        background-image: url("/jaco7702/Images/lama\ animation\ 1.png");
+        background-image: url("../Images/lama\ animation\ 1.png");
     }
     40%
     {
-        background-image: url("/jaco7702/Images/lama\ animation\ 4.png");
+        background-image: url("../Images/lama animation 4.png");
     }
     60%
     {
-        background-image: url("/jaco7702/Images/lama\ animation\ 2.png");
+        background-image: url("../Images/lama\ animation\ 2.png");
     }
     80%
     {
-        background-image: url("/jaco7702/Images/lama\ animation\ 3.png");
+        background-image: url("../Images/lama\ animation\ 3.png");
     }
 
 }
